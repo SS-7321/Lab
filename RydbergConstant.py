@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Created on Wed Nov 17 20:46:02 2021
 
@@ -105,7 +106,7 @@ print (m2)
 
 m = m2
 plt.errorbar(xrydberg, yrydberg,yerr= yrydstd, fmt='r.', capsize=5)
-plt.plot(np.linspace(-6,6,50),(np.linspace(-6,6,50))*m+rydline[2], 'k')
+plt.plot(np.linspace(-6,6,50),(np.linspace(-6,6,50)-xrydberg[2])*m+yrydberg[2]+yrydstd[2], 'k')
 plt.xlabel("$1/n^2$-$1/p^2$ (Balmer series for hydrogen: $n$=5,4,3 ; $p$=2)")
 plt.ylabel("1/${\\Lambda}$")
 plt.xlim(xrydberg.min()-0.01, xrydberg.max()+0.01)
