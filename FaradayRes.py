@@ -67,12 +67,12 @@ def multunc(x,stdx,y,stdy,z):
 
 #%%
 
-pr_0V = np.loadtxt("C:\\Users\\User\\Documents\\Labs\\Faraday\\fr.csv", delimiter=',', skiprows=3, usecols=1, max_rows=15)
-pr_1V = np.loadtxt("C:\\Users\\User\\Documents\\Labs\\Faraday\\fr.csv", delimiter=',', skiprows=3, usecols=3, max_rows=17)
-pr_2V = np.loadtxt("C:\\Users\\User\\Documents\\Labs\\Faraday\\fr.csv", delimiter=',', skiprows=3, usecols=5, max_rows=12)
-sd_0V = np.loadtxt("C:\\Users\\User\\Documents\\Labs\\Faraday\\fr.csv", delimiter=',', skiprows=22, usecols=1, max_rows=15)*10**-3
-sd_1V = np.loadtxt("C:\\Users\\User\\Documents\\Labs\\Faraday\\fr.csv", delimiter=',', skiprows=22, usecols=3, max_rows=17)*10**-3
-sd_2V = np.loadtxt("C:\\Users\\User\\Documents\\Labs\\Faraday\\fr.csv", delimiter=',', skiprows=22, usecols=5, max_rows=12)*10**-3
+pr_0V = np.loadtxt("PATH_TO_FILE.csv", delimiter=',', skiprows=3, usecols=1, max_rows=15)
+pr_1V = np.loadtxt("PATH_TO_FILE.csv", delimiter=',', skiprows=3, usecols=3, max_rows=17)
+pr_2V = np.loadtxt("PATH_TO_FILE.csv", delimiter=',', skiprows=3, usecols=5, max_rows=12)
+sd_0V = np.loadtxt("PATH_TO_FILE.csv", delimiter=',', skiprows=22, usecols=1, max_rows=15)*10**-3
+sd_1V = np.loadtxt("PATH_TO_FILE.csv", delimiter=',', skiprows=22, usecols=3, max_rows=17)*10**-3
+sd_2V = np.loadtxt("PATH_TO_FILE.csv", delimiter=',', skiprows=22, usecols=5, max_rows=12)*10**-3
 
 
 #%%
